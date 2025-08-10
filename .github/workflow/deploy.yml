@@ -27,7 +27,7 @@ jobs:
 
       # 4. 构建 VuePress
       - name: Build VuePress site
-        run: npm run build
+        run: npm run docs:build
 
       # 5. 部署到 gh-pages 分支
       - name: Deploy to GitHub Pages
