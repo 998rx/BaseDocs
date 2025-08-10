@@ -12,7 +12,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: '帮助中心',
   description: '产品使用帮助文档',
-  base: '/docs/',
+  base: '/FlyingDocument/',
   
   markdown: {
     code: {
