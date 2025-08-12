@@ -23,6 +23,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   host: 'localhost',
   port: 8089,
+  base: '/BaseDocs/',
   head:[
     ['link',{rel: 'icon', href:'/img/logo.jpg'}],
     ['link', { rel: 'stylesheet', href: '/styles/index.css' }],
