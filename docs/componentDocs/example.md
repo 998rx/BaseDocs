@@ -1,5 +1,5 @@
 ---
-title: example
+title: UI组件
 createTime: 2025/08/08 14:36:58
 permalink: /article/wt6m39t3/
 ---
