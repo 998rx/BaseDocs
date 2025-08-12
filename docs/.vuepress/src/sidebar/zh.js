@@ -25,7 +25,7 @@ export const sidebar_zh = [
         children: [
             {
                 text: '介绍',
-                link: '/api/apiUsing',
+                link: '/API/APIUsing',
             },
         ],
     },
