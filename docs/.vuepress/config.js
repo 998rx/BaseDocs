@@ -1,9 +1,9 @@
 /*
  * @Author: zrx
  * @Date: 2025-08-08 14:37:33
- * @LastEditors: zrx
- * @LastEditTime: 2025-08-11 13:45:53
- * @FilePath: \pressDocs\docs\.vuepress\config.js
+ * @LastEditors: FlyingStar
+ * @LastEditTime: 2025-08-12 16:27:51
+ * @FilePath: \BaseDocs\docs\.vuepress\config.js
  * @Description: 
  */
 import { viteBundler } from '@vuepress/bundler-vite'
@@ -26,7 +26,7 @@ export default defineUserConfig({
   base: '/BaseDocs/',
   head:[
     ['link',{rel: 'icon', href:'/img/logo.jpg'}],
-    ['link', { rel: 'stylesheet', href: '/styles/index.css' }],
+    ['link', { rel: 'stylesheet', href: '/BaseDocs/styles/index.css' }],
   ],
   locales: {
     '/': {
