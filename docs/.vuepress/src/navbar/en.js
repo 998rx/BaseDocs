@@ -7,7 +7,8 @@
  * @Description: 
  */
 export const navbar_en = [
-    { text: 'Home', link: '/en/' },
-    { text: 'Guide', link: '/en/guide/gettingStart' },
-    { text: 'Main State', link: 'https://v2.vuepress.vuejs.org/zh' }
+    { text: 'Farm', link: '/en/' },
+    { text: 'Fertilizer', link: '/en/guide/gettingStart' },
+    { text: 'Tools', link: '/en/api/apiUsing' },
+    { text: 'Agricultural Co-operative', link: 'https://blog.csdn.net/weixin_51416826?type=blog' }
 ]

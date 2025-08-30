@@ -1,9 +1,11 @@
 ---
-title: UI组件
+title: Element-UI
 createTime: 2025/08/08 14:36:58
 permalink: /article/wt6m39t3/
 ---
 # Element-UI 组件
+
+嵌入了Element-UI的组件，下面仅展示实现效果，更多的请查看Element-UI官方文档。
 
 ## 评分
 

@@ -3,3 +3,19 @@
     --vp-c-accent-hover: rgb(31, 144, 255);
     --vp-c-accent-bg: rgb(31, 144, 255);
 }
+
+.vp-home{
+    min-height: 80vh;
+    background-image: url('/BaseDocs/img/home-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    color: #fff;
+}
+.vp-features {
+    border-top: none;
+}
+.vp-hero-description, .vp-feature p, .vp-footer {
+    color: #fff;
+}

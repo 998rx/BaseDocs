@@ -8,24 +8,28 @@
  */
 export const sidebar_zh = [
     {
-        text: '指南',
+        text: '肥料',
         children: [
             {
                 text: '介绍',
                 link: '/guide/gettingStart',
             },
             {
-                text: '组件',
+                text: 'Element组件',
                 link: '/componentDocs/example',
             },
+            {
+                text: '自定义组件',
+                link: '/componentDocs/customExample',
+            }
         ],
     },
     {
-        text: 'API',
+        text: '工具',
         children: [
             {
                 text: '介绍',
-                link: '/API/APIUsing',
+                link: '/api/apiUsing',
             },
         ],
     },

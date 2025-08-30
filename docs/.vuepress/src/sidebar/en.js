@@ -8,7 +8,7 @@
  */
 export const sidebar_en = [
     {
-        text: 'Guide',
+        text: 'Fertilizer',
         children: [
             {
                 text: 'Indocation',

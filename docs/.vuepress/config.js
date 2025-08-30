@@ -1,9 +1,9 @@
 /*
  * @Author: zrx
  * @Date: 2025-08-08 14:37:33
- * @LastEditors: FlyingStar
- * @LastEditTime: 2025-08-12 16:27:51
- * @FilePath: \BaseDocs\docs\.vuepress\config.js
+ * @LastEditors: zrx
+ * @LastEditTime: 2025-08-11 13:45:53
+ * @FilePath: \pressDocs\docs\.vuepress\config.js
  * @Description: 
  */
 import { viteBundler } from '@vuepress/bundler-vite'
@@ -12,6 +12,7 @@ import { defineUserConfig } from 'vuepress'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { prismjsPlugin } from '@vuepress/plugin-prismjs'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { markdownIncludePlugin } from '@vuepress/plugin-markdown-include'
 import { path } from '@vuepress/utils'
 import { navbar_zh } from './src/navbar/zh'
 import { navbar_en } from './src/navbar/en'
@@ -25,23 +26,23 @@ export default defineUserConfig({
   port: 8089,
   base: '/BaseDocs/',
   head:[
-    ['link',{rel: 'icon', href:'/img/logo.jpg'}],
+    ['link',{rel: 'icon', href:'/BaseDocs/img/logo.png'}],
     ['link', { rel: 'stylesheet', href: '/BaseDocs/styles/index.css' }],
   ],
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: '帮助中心',
-      description: '产品使用帮助文档'
+      title: '知识牧场',
+      description: '一款用于分享知识的趣味平台'
     },
     '/en/': {
       lang: 'en-US',
-      title: 'Help Center',
-      description: 'Product help documentation'
+      title: 'Knowledge Ranch',
+      description: 'A fun platform for sharing knowledge'
     }
   },
   theme: defaultTheme({
-    logo: '/img/logo.jpg',
+    logo: '/img/logo.png',
     locales: {
       '/': {
         selectLanguageName: '简体中文',
@@ -49,6 +50,8 @@ export default defineUserConfig({
         selectLanguageAriaLabel: '选择语言',
         lastUpdatedText: '上次更新',
         contributorsText: '贡献者',
+        prev: '上一页',
+        next: '下一页',
         notFound: [
           '这里什么都没有',
           '我们怎么到这来了？',
@@ -116,5 +119,11 @@ export default defineUserConfig({
         componentsDir: path.resolve(__dirname, './components'),
       })
     ],
+    [
+      markdownIncludePlugin({
+        basePath: path.resolve(__dirname, '../componentDocs'),
+      })
+
+    ]
   ]
 })
