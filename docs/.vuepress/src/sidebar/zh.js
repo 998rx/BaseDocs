@@ -33,5 +33,18 @@ export const sidebar_zh = [
             },
         ],
     },
+    {
+        text: '指导书',
+        children: [
+            {
+                text: '介绍',
+                link: '/cheats/cheats',
+            },
+            {
+                text: '经典搭配',
+                link: 'cheats/frames'
+            }
+        ],
+    }
 
 ]

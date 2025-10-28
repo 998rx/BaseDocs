@@ -10,6 +10,7 @@ export const navbar_zh = [
     { text: '庄园', link: '/' },
     { text: '肥料', link: '/guide/gettingStart' },
     { text: '工具', link: '/api/apiUsing' },
+    { text: '指导书', link: 'cheats/cheats'},
 
     { text: '农业合作社', link: 'https://blog.csdn.net/weixin_51416826?type=blog' },
     { text: '仓储', link: 'https://gitee.com/xiang0430' }
